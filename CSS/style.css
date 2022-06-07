@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    position: relative;
+    height: 30em;
+  }
+
+.imgcircle{
+    clip-path: circle();
+    position: absolute; 
+    top: 1px;
+    left: 40%;
+
+}
+
+#content{
+
+    text-align: center;
+    color: white;
+    position: absolute;
+    margin-left: 47%;
+    margin-top: -5%;
+    width: auto;
+    display: block;
+    word-spacing: 4px;
+}
